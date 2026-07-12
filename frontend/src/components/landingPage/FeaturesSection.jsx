@@ -1,10 +1,10 @@
-import { Fawallet, FaRobot, FaChartLine, FaBullseye  } from "react-icons/fa";
+import { FaWallet, FaRobot, FaChartLine, FaBullseye  } from "react-icons/fa";
 import { BiSolidReport  } from "react-icons/bi";
 import { BsStack  } from "react-icons/bs";
 const FeaturesSection = () => {
     const features = [
         {
-            icon: <Fawallet/>,
+            icon: <FaWallet/>,
             title: "Everything You Need For Smarter Control",
             desc: "IntelliSpend AI combines expense management, savings discipline and intelligent AI analytics into one easy dashboard."
         },
