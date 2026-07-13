@@ -1,8 +1,13 @@
+import DashboardLayout from "../components/layout/DashboardLayout";
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
-  )
-}
+    <>
+      <DashboardLayout title={'Dashboard'}>
 
-export default Dashboard
+      </DashboardLayout>
+    </>
+  );
+};
+
+export default Dashboard;

@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 const Header = () => {
   return (
     <>
@@ -11,8 +13,8 @@ const Header = () => {
                 <a href="#reviews" className="hover:text-sky-800">Reviews</a>
             </nav>
             <div className="flex items-center gap-3">
-                <button className="px-5 py-2 border border-gray-300 rounded-xl text-sm font-medium hover:bg-gray-100 transition cursor-pointer">Login</button>
-                <button className="px-5 py-2 bg-sky-700 text-white rounded-xl text-sm font-medium hover:bg-sky-800 transition cursor-pointer">Get Started</button>
+                <Link to='/login' className="px-5 py-2 border border-gray-300 rounded-xl text-sm font-medium hover:bg-gray-100 transition cursor-pointer">Login</Li>
+                <Link to='/register' className="px-5 py-2 bg-sky-700 text-white rounded-xl text-sm font-medium hover:bg-sky-800 transition cursor-pointer">Get Started</Li>
             </div>
         </div>
       </header>
